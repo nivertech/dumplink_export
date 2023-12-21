@@ -31,8 +31,8 @@ Updated at: 2023-12-18T13:58:22Z
 
 ### S4  - Done
 - [x] t41
-
 ```
+
 
 GitHub tasklists beta format (new)
 
@@ -48,7 +48,6 @@ Updated at: 2023-12-18T13:58:22Z
 - [x] t11
 - [x] t12
 - [ ] t13
-
 ```
 
 ```[tasklist]
@@ -56,20 +55,18 @@ Updated at: 2023-12-18T13:58:22Z
 - [x] t21
 - [ ] t22
 - [ ] t23
-
 ```
 
 ```[tasklist]
 ### S3  - Figured out
 - [x] t31
 - [x] t32
-
 ```
 
 ```[tasklist]
 ### S4  - Done
 - [x] t41
-
 ```
 
 ```
+
