@@ -64,10 +64,9 @@ function generateNewTaskList(json, bucket) {
 function generateMarkdown(json) {
     const buckets = generateBucketList(json);
 
-    const f = isNewTasklistFormat ? generateNewTaskList : generateTaskList;
+    const genTaskList = isNewTasklistFormat ? generateNewTaskList : generateTaskList;
 
-    //var markdown = buckets.map(bucket => generateTaskList(json, bucket));//.filter(Boolean);
-    var markdown = buckets.map(bucket => f(json, bucket));//.filter(Boolean);
+    var markdown = buckets.map(bucket => genTaskList(json, bucket));//.filter(Boolean);
 
     const project = json.project;
     const projectURL = `https://dump.link/a/${project.id}`;
