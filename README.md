@@ -1,10 +1,15 @@
 # dumplink_export
 
+How to use:
+
 ```bash
 curl https://dump.link/api/v1/projects/PROJECTID?token=TOKEN > prroject.json
-node export.js project.json > issue.md
-```
 
+node export.js project.json > issue.md
+
+# or copy to clipboard and paste into new GH issue
+node export.js project.json | xclip -sel clip
+```
 
 GitHub tasklist format (current):
 
