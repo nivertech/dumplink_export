@@ -36,7 +36,7 @@ Updated at: 2023-12-18T13:58:22Z
 
 GitHub tasklists beta format (new)
 
-```markdown
+```text
 # Project: [test](https://dump.link/a/PROJECTID)
 
 Appetite: 2 weeks
