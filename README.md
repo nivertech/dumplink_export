@@ -14,6 +14,9 @@ node export.js project.json | xclip -sel clip
 ## GitHub tasklist format (current):
 
 
+Example issue: https://github.com/nivertech/dumplink_export/issues/1
+
+
 Will look like this:
 
 ![](images/gh_tasklist_current.png)
