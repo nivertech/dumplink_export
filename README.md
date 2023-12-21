@@ -1,6 +1,6 @@
 # dumplink_export
 
-How to use:
+### How to use:
 
 ```bash
 curl https://dump.link/api/v1/projects/PROJECTID?token=TOKEN > prroject.json
@@ -11,7 +11,7 @@ node export.js project.json > issue.md
 node export.js project.json | xclip -sel clip
 ```
 
-GitHub tasklist format (current):
+### GitHub tasklist format (current):
 
 ```markdown
 # Project: [test](https://dump.link/a/PROJECTID)
@@ -39,7 +39,9 @@ Updated at: 2023-12-18T13:58:22Z
 ```
 
 
-GitHub tasklists beta format (new)
+### GitHub tasklists beta format (new)
+
+https://docs.github.com/en/issues/managing-your-tasks-with-tasklists/creating-a-tasklist
 
 ```text
 # Project: [test](https://dump.link/a/PROJECTID)
