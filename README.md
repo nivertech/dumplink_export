@@ -3,7 +3,7 @@
 ## How to use:
 
 ```bash
-curl https://dump.link/api/v1/projects/PROJECTID?token=TOKEN > prroject.json
+curl https://dump.link/api/v1/projects/PROJECTID?token=TOKEN > project.json
 
 node export.js project.json > issue.md
 
