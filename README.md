@@ -11,6 +11,11 @@ node export.js project.json > issue.md
 node export.js project.json | xclip -sel clip
 ```
 
+## Project in dumplink 
+
+![](images/dumplink_dump_view.png)
+
+
 ## GitHub tasklist format (current):
 
 
